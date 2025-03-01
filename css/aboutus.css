@@ -1,0 +1,11 @@
+body{
+    background-image:url("image/m.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#m{
+    color: grey;
+}
+#n{
+    color: palevioletred;
+}
