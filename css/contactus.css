@@ -1,7 +1,5 @@
 body{
-    background-image:url("image/m.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color:pink;
 }
 #m{
     color: grey;

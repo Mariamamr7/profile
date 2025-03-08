@@ -1,59 +1,60 @@
-<html>
-<head>  
-<link  rel="stylesheet" href="todolist.css" >
-<link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
 
+<html>
+<head>
+<link rel="stylesheet" href="css/todolist.css">
+<link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
-    <ul>
-        <li>  <a href="home.html" onmouseover="seteffectlin(this)"  onmouseout="deleteeffect(this)">home</a></li>
-        <li> <a href="aboutus.html" onmouseover="seteffectlin(this)"  onmouseout="deleteeffect(this)">about us</a> </li>
-        <li> <a href="contactus.html" onmouseover="seteffectlin(this)"  onmouseout="deleteeffect(this)">contact us</a></li>
-        <li><a href="#">projects</a>
-             <ul  id="dropdown">
-                  <li> <a  href="calculator.html" onmouseover="seteffectlin(this)"  onmouseout="deleteeffect(this)"> calculator</a> </li>
-                  <li> <a  href="todolist.html" onmouseover="seteffectlin(this)"  onmouseout="deleteeffect(this)"> todolist</a> </li>
-             </ul>
-     
-     </li>
-        <li><a href="#">language</a>
-     <ul  id="dropdown">  
-     <li>   <a href="html.html" onmouseover="seteffectlin(this)"  onmouseout="deleteeffect(this)"> html</a></li>
-     <li>   <a href="javascript.html" onmouseover="seteffectlin(this)"  onmouseout="deleteeffect(this)"> javascript</a></li>
-     <li>   <a href="css.html" onmouseover="seteffectlin(this)"  onmouseout="deleteeffect(this)"> css</a></li>
-     </ul>
-     
-     </li>
-     
-             </ul>
-
-             <h2 id="h">S is an abbreviation for JavaScript.<br>
-                It is a scripting language that is used to create and control dynamic content on a webpage.
-           </h2>
-   
-     
-     <script  src="script.js"></script>
+     <ul   id="menu">
+          <li>  <a href="home.html" onmouseover="seteffectlin(this)"  onmouseout="deleteeffect(this)">home</a></li>
+          <li> <a href="aboutus.html" onmouseover="seteffectlin(this)"  onmouseout="deleteeffect(this)">about us</a> </li>
+          <li> <a href="contactus.html" onmouseover="seteffectlin(this)"  onmouseout="deleteeffect(this)">contact us</a></li>
+          <li><a href="#">projects</a>
+               <ul  id="dropdown">
+                    <li> <a  href="calculator.html" onmouseover="seteffectlin(this)"  onmouseout="deleteeffect(this)"> calculator</a> </li>
+                    <li> <a  href="todolist.html" onmouseover="seteffectlin(this)"  onmouseout="deleteeffect(this)"> todolist</a> </li>
+               </ul>
+       
+       </li>
+          <li><a href="#">language</a>
+       <ul  id="dropdown">  
+       <li>   <a href="html.html" onmouseover="seteffectlin(this)"  onmouseout="deleteeffect(this)"> html</a></li>
+       <li>   <a href="javascript.html" onmouseover="seteffectlin(this)"  onmouseout="deleteeffect(this)"> javascript</a></li>
+       <li>   <a href="css.html" onmouseover="seteffectlin(this)"  onmouseout="deleteeffect(this)"> css</a></li>
+       </ul>
+       
+       </li>
+       
+               </ul>
 
 <div   class="container">
-          <div class="todo-app">
+        <div class="todo_app">
+<h1> to-do list  <img  class="icon" src="../image/task_icon.jpg"></h1>
 
-           <h2>To_Do list <img src="../image/task_icon.jpg"  width="50" height="50"></h2>
-
-           <div  class="row">
-            <input type="text" id="input_box" placeholder="add your text">
-            <button onclick="addtask()">add</button>
-
-           </div>
-
-           <ul id="list_conainer">
-            <li    class="checked"> task1</li>
-            <li> task2</li>
-            <li> task3</li>
-           </ul>
-          </div>
+<div class="row">
+    <input type="text" id="input_box"  name="input_box" placeholder="enter the task">
+    <button onclick="add_task();">add task</button>
 </div>
-<script    src="todolist.js">     </script>
+<ul id="listcotainer" class="listcotainer">
+
+</ul>
+
+
+
+
+        </div>
+
+        
+
+
+
+    </div>
+
+
+  <script  src="javascript/todolist.js">  </script>  
+  <script src="javascript/script.js"></script>
 </body>
 
 </html>

@@ -1,16 +1,14 @@
 body{
-    background-image:url("image/m.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color:pink;
 } 
 *{
     margin: 0px;
     padding: 0px;
 }
-ul{
+ ul{
     background:rgb(172, 166, 166);
       }
-ul li{
+  ul li{
     display: inline-block;
     margin-left: 10px;
     list-style:none;
@@ -21,7 +19,7 @@ ul li{
     margin-bottom: 10px;
     width: 120px;
 }
-ul li a{ 
+ ul li a{ 
     text-decoration: none;
     color: antiquewhite;
     display: block;
@@ -29,7 +27,7 @@ ul li a{
 #dropdown{  
     display: none;
 }
-ul li:hover #dropdown{
+ ul li:hover #dropdown{
     display:block; 
     position:absolute;
     z-index: 999;
