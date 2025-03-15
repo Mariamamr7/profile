@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="askquestion()">
+
+    <ul>
+        <li>  <a href="home.html" onmouseover="seteffectlin(this)"  onmouseout="deleteeffect(this)">home</a></li>
+        <li> <a href="aboutus.html" onmouseover="seteffectlin(this)"  onmouseout="deleteeffect(this)">about us</a> </li>
+        <li> <a href="contactus.html" onmouseover="seteffectlin(this)"  onmouseout="deleteeffect(this)">contact us</a></li>
+        <li><a href="#">projects</a>
+             <ul  id="dropdown">
+                  <li> <a  href="calculator.html" onmouseover="seteffectlin(this)"  onmouseout="deleteeffect(this)"> calculator</a> </li>
+                  <li> <a  href="todolist.html" onmouseover="seteffectlin(this)"  onmouseout="deleteeffect(this)"> todolist</a> </li>
+                  <li> <a  href="fade.html" onmouseover="seteffectlin(this)"  onmouseout="deleteeffect(this)"> fade in/out</a> </li>
+                  <li> <a  href="color.html" onmouseover="seteffectlin(this)"  onmouseout="deleteeffect(this)"> color quize</a> </li>
+             </ul>
+     
+     </li>
+        <li><a href="#">language</a>
+     <ul  id="dropdown">  
+     <li>   <a href="html.html" onmouseover="seteffectlin(this)"  onmouseout="deleteeffect(this)"> html</a></li>
+     <li>   <a href="javascript.html" onmouseover="seteffectlin(this)"  onmouseout="deleteeffect(this)"> javascript</a></li>
+     <li>   <a href="css.html" onmouseover="seteffectlin(this)"  onmouseout="deleteeffect(this)"> css</a></li>
+     </ul>
+     
+     </li>
+     
+             </ul>
+
+            
+   
+     
+
+<h1>  answer the quesion by clicking approriate image</h1>
+
+<table   align="center">
+
+<tr>  <td colspan="3"> <input  id="question"  ></td></tr>
+<tr>  <td >
+<img  src="image/green.jpg" onclick="answer('green')">
+<img  src="image/yellow.jpg" onclick="answer('yellow')">
+<img  src="image/pink.jpg" onclick="answer('pink')">
+<img  src="image/brown.jpg" onclick="answer('brown')">
+<img  src="image/purple.jpg" onclick="answer('purple')">
+<img  src="image/blue.png" onclick="answer('blue')">
+<img  src="image/black.png" onclick="answer('black')">
+<img  src="image/orange.png" onclick="answer('orange')">
+
+</td></tr>
+<tr>  <td colspan="3">  <h1   id="answer"></h1></td></tr>
+<tr>  <td colspan="3"> <button onclick="askquestion()">next</button ></td></tr>
+
+
+
+</table>
+
+
+
+<script  src="color.js" ></script>
+
+</body>
+
+
+</html>

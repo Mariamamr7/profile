@@ -1,0 +1,21 @@
+body{
+
+    background: rgb(107, 175, 231);
+}
+
+h1{
+
+    text-align: center;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.884);
+}
+
+input
+{
+    width: 831px;
+    height: 100px;
+}
+img{
+    width: 100px;
+    height: 100px;
+}

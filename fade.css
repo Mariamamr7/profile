@@ -1,0 +1,25 @@
+body{
+
+
+    background-color: blue;
+    width:100%;
+}
+
+#slid{
+
+    width:30%;
+    height: 600px;
+    float: left;
+   margin-left: 50px;
+}
+
+img{
+
+    width:300px;
+    height: 300px;
+}
+
+#im1
+{
+    display: none;
+}
