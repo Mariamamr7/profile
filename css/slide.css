@@ -1,0 +1,40 @@
+body{
+
+
+   
+    width:100%;
+}
+
+#hnew
+{
+    background-color:blue;
+    width: 200px;
+    height: 100px;
+}
+
+
+#slide_down{
+
+    background-color: yellowgreen;
+    display:none;
+}
+
+
+#slid_up{
+
+
+    background-color: brown;
+}
+
+button{
+    width:400px;
+}
+
+#slide_down,#slid_up,#slid_toggle
+{
+    width:400px;
+}
+
+#slid_toggle img{
+    width:400px;  
+}
