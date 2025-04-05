@@ -1,0 +1,17 @@
+body{
+
+
+    background-color: blue;
+    width:100%;
+}
+
+
+#studentlist
+{
+
+
+    width:500px;
+    height: 500px;
+    background-color: yellow;
+    color:blue;
+}
