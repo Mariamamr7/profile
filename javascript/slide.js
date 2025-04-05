@@ -3,7 +3,7 @@ $(document).ready(function()
    /* $('#hnew').click( function()
     {
 
-    alert(1);
+   
     $('bnews').slideDown('slow');
     });
     */
@@ -19,7 +19,7 @@ function slide_up()
 
 function slide_down()
 {
-    alert(1);
+    
 
     $("#slide_down").slideDown(5000);
 

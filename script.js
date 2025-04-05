@@ -1,4 +1,4 @@
-alert(111);
+
 let current_question=0;
 
 let point=0;

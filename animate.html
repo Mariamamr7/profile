@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
-<head>
-<link rel="stylesheet" href="style.css">
+<head>  
+<link rel="stylesheet" href="css/animate.css">
+<script  src="javascript/jquery-3.7.1.min.js"></script>
 <link rel="stylesheet" href="css/style.css">
-</head>
-<body onload="askquestion()">
 
+</head>
+<body>
     <ul>
         <li>  <a href="home.html" onmouseover="seteffectlin(this)"  onmouseout="deleteeffect(this)">home</a></li>
         <li> <a href="aboutus.html" onmouseover="seteffectlin(this)"  onmouseout="deleteeffect(this)">about us</a> </li>
@@ -33,38 +34,27 @@
      
              </ul>
 
-            
-   
-     
 
-<h1>  answer the quesion by clicking approriate image</h1>
+<div  id="container">
 
-<table   align="center">
 
-<tr>  <td colspan="3"> <input  id="question"  ></td></tr>
-<tr>  <td >
-<img  src="image/green.jpg" onclick="answer('green')">
-<img  src="image/yellow.jpg" onclick="answer('yellow')">
-<img  src="image/pink.jpg" onclick="answer('pink')">
-<img  src="image/brown.jpg" onclick="answer('brown')">
-<img  src="image/purple.jpg" onclick="answer('purple')">
-<img  src="image/blue.png" onclick="answer('blue')">
-<img  src="image/black.png" onclick="answer('black')">
-<img  src="image/orange.png" onclick="answer('orange')">
+    <div   id="div1">
 
-</td></tr>
-<tr>  <td colspan="3">  <h1   id="answer"></h1></td></tr>
-<tr>  <td colspan="3"> <button onclick="askquestion()">next</button ></td></tr>
+<p>    we animate div</p>
 
 
 
-</table>
+    </div>
+    <br>
+
+    <button   onclick="animate_increase();"> increase animate</button>
+    <button   onclick="animate_decrease();"> decrease animate</button>
 
 
 
-<script  src="color.js" ></script>
+</div>
 
+    <script  src="javascript/animate.js"></script>
 </body>
-
 
 </html>
